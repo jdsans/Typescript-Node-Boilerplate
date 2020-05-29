@@ -1,0 +1,27 @@
+{
+    "name": "rainbocli",
+    "version": "1.0.0",
+    "description": "A Cli tool for Rainbo.io",
+    "main": "index.js",
+    "private": true,
+    "bin": {
+        "rainbo": "dist/index.js"
+    },
+    "scripts": {
+        "build": "webpack --mode=production --config webpack.config.ts"
+    },
+    "author": "jdsans",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^5.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^14.0.5",
+        "@types/webpack": "^4.41.13",
+        "ts-loader": "^7.0.5",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.3",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    }
+}
